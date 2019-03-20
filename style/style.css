@@ -1,0 +1,122 @@
+@font-face {
+			font-family: "SegoeUIRegular";
+			src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+			src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+			url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "SegoeUIBold";
+			src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+			src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+			url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+body {
+  line-height: 1.5;
+}
+
+.opener {
+width: 100%;
+height: 100%;
+background-color: #23232e;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  padding: auto;
+  padding-top: 50px;
+}
+
+.title_first {
+  font-family: "SegoeUIBold", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 80px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.caption {
+  font-family: "SegoeUIRegular", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.arrow {
+  display: block;
+  margin: auto;
+  padding: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.title__second {
+  font-family: "SegoeUIBold", sans-serif;
+  color: #464b4f;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.introduction__block {
+  margin: auto;
+  padding: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 60%;
+}
+
+.introduction__text {
+  font-family: "SegoeUIRegular", sans-serif;
+  color: #464b4f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.last__block {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  font-family: "SegoeUIRegular", sans-serif;
+  color: #464b4f;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: "SegoeUIBold", sans-serif;
+  color: #464b4f;
+}
+
+.template__block {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.brand__block {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.dreams__block {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+  padding: 5px;
+  box-sizing: border-box;
+}
